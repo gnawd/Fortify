@@ -5,18 +5,19 @@ import AboutPage from './pages/AboutPage'
 import VolunteersPage from './pages/VolunteersPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import NavBar from './NavBar'
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>My Awesome App</h1>
+        <NavBar />
 
         <div id="page-body">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/organizations" element={<OrganizationsPage />} />
-            <Route path="/Volunteers" element={<VolunteersPage />} />
+            <Route path="/volunteers" element={<VolunteersPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
