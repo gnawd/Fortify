@@ -4,6 +4,8 @@ import OrganisationsPage from './pages/OrganisationsPage'
 import AboutPage from './pages/AboutPage'
 import VolunteersPage from './pages/VolunteersPage'
 import NotFoundPage from './pages/NotFoundPage'
+import SignInPage from './pages/SigninPage'
+import SignUpPage from './pages/SignUpPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './NavBar'
 function App() {
@@ -18,6 +20,8 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/organisations" element={<OrganisationsPage />} />
             <Route path="/volunteers" element={<VolunteersPage />} />
+            <Route path="/signin" element={<SignInPage/>} />
+            <Route path="/signup" element={<SignUpPage/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
