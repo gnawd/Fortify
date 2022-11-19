@@ -1,7 +1,6 @@
+import signupimage from '../images/SignUpimage.png'
 const SignUpPage = () => {
     return <div class="background">
-    <form action="#">
-
       <div class="wrap">
     <h2>Join our company today!</h2>
     <form action="#">
@@ -27,9 +26,9 @@ const SignUpPage = () => {
       <div class="text">
         <h3>Already have an account? <a href="#">Login here</a></h3>
       </div>
-    </form>
+      </form>
       </div>
-    </form>
+      
   </div>
   }
   export default SignUpPage
