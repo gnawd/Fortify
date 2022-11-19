@@ -1,6 +1,6 @@
 import './App.css'
 import HomePage from './pages/HomePage'
-import OrganizationsPage from './pages/OrganizationsPage'
+import OrganisationsPage from './pages/OrganisationsPage'
 import AboutPage from './pages/AboutPage'
 import VolunteersPage from './pages/VolunteersPage'
 import NotFoundPage from './pages/NotFoundPage'
@@ -16,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/organizations" element={<OrganizationsPage />} />
+            <Route path="/organisations" element={<OrganisationsPage />} />
             <Route path="/volunteers" element={<VolunteersPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
