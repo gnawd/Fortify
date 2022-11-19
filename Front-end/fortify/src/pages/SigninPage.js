@@ -4,20 +4,17 @@ const SignInPage = () => {
   <h2>Welcome back!</h2>
   <form action="#">
     <div class="input-box">
-      <input type="text" placeholder="Enter your name" required />
+      <input type="text" placeholder="Enter your username or email address" required />
     </div>
 
     <div class="input-box">
-      <input type="text" placeholder="Enter your email" required />
+      <input type="text" placeholder="Enter your password" required />
     </div>
     
-    <div class="input-box">
-      <input type="password" placeholder="Create password" required />
-    </div>
-    
-    <div class="input-box">
-      <input type="password" placeholder="Confirm password" required />
-    </div>
+    <div class="input-box button">
+        <input type="Submit" value="Sign in" />
+      </div>
+
     <div class="text">
       <h3>Don't have an account? <a href="">Sign up here</a></h3>
     </div>
